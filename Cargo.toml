@@ -17,47 +17,47 @@ features = ['derive']
 package = 'parity-scale-codec'
 version = '2.0.0'
 
-[dependencies.frame-benchmarking]
-default-features = false
-git = 'https://github.com/paritytech/substrate.git'
-optional = true
-tag = 'monthly-2021-10'
-version = '4.0.0-dev'
-
-[dependencies.frame-support]
-default-features = false
-git = 'https://github.com/paritytech/substrate.git'
-tag = 'monthly-2021-10'
-version = '4.0.0-dev'
-
-[dependencies.frame-system]
-default-features = false
-git = 'https://github.com/paritytech/substrate.git'
-tag = 'monthly-2021-10'
-version = '4.0.0-dev'
-
 [dependencies.scale-info]
 default-features = false
 features = ['derive']
 version = '1.0'
 
+[dependencies.frame-benchmarking]
+default-features = false
+git = 'https://github.com/gluwa/substrate.git'
+optional = true
+version = '4.0.0-dev'
+rev = "973dd744f5f7c6322799bbfa29366588e0267b0a"
+
+[dependencies.frame-support]
+default-features = false
+git = 'https://github.com/gluwa/substrate.git'
+version = '4.0.0-dev'
+rev = "973dd744f5f7c6322799bbfa29366588e0267b0a"
+
+[dependencies.frame-system]
+default-features = false
+git = 'https://github.com/gluwa/substrate.git'
+version = '4.0.0-dev'
+rev = "973dd744f5f7c6322799bbfa29366588e0267b0a"
+
 [dev-dependencies.sp-core]
 default-features = false
-git = 'https://github.com/paritytech/substrate.git'
-tag = 'monthly-2021-10'
-version = '4.0.0-dev'
+git = 'https://github.com/gluwa/substrate.git'
+version = '4.1.0-dev'
+rev = "973dd744f5f7c6322799bbfa29366588e0267b0a"
 
 [dev-dependencies.sp-io]
 default-features = false
-git = 'https://github.com/paritytech/substrate.git'
-tag = 'monthly-2021-10'
+git = 'https://github.com/gluwa/substrate.git'
 version = '4.0.0-dev'
+rev = "973dd744f5f7c6322799bbfa29366588e0267b0a"
 
 [dev-dependencies.sp-runtime]
 default-features = false
-git = 'https://github.com/paritytech/substrate.git'
-tag = 'monthly-2021-10'
-version = '4.0.0-dev'
+git = 'https://github.com/gluwa/substrate.git'
+version = '4.1.0-dev'
+rev = "973dd744f5f7c6322799bbfa29366588e0267b0a"
 
 [features]
 default = ['std']
